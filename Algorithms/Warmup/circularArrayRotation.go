@@ -2,7 +2,6 @@ package main
 import "fmt"
 
 func main() {
-
 	var n, k, q, m int
 	fmt.Scanf("%d %d %d", &n, &k, &q)
 	k%=n
