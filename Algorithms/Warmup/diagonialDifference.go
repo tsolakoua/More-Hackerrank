@@ -3,8 +3,9 @@ import "fmt"
 import "math"
 
 func main() {
-	var n, sumA, sumB int
-	fmt.Scan(&n)
+	
+    var n, sumA, sumB int
+    fmt.Scan(&n)
 
     myMatrix := make([][]int, n)
     for k := 0; k < len(myMatrix); k++ {
@@ -30,5 +31,4 @@ func main() {
     }
 
     fmt.Println(math.Abs(float64(sumA-sumB)))
-
 }
