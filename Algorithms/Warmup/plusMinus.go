@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func main()	{
-	var n, countPositive, countNegative, countZero int
-	fmt.Scan(&n)
+func main() {
+    var n, countPositive, countNegative, countZero int
+    fmt.Scan(&n)
 
-	slice := make([]int, n)
+    slice := make([]int, n)
     
     for i := 0; i< n; i++ {
-		fmt.Scanf("%d", &slice[i])
+	fmt.Scanf("%d", &slice[i])
     }
 
     for i := 0; i< n; i++ {
